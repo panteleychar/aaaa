@@ -1,0 +1,1046 @@
+
+
+
+<!DOCTYPE html>
+<html>
+   
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GreenGraspumzi - Automazione della gestione alberghiera con ZakWubook PMS</title>
+    <meta property="og:title" content="GreenGraspumzi - Automazione della gestione alberghiera con ZakWubook PMS" />
+    <meta property="og:image" content="posts/06_09_2024/Real-estate-2024-09-17-1.png" />
+    
+    <meta property="og:description" content="Noi di GreenGraspumzi siamo specializzati nella fornitura di servizi di primordine nel campo di ZakWubook PMS," />
+    <meta name="description" content="Noi di GreenGraspumzi siamo specializzati nella fornitura di servizi di primordine nel campo di ZakWubook PMS," />
+    <meta name="twitter:title" content="GreenGraspumzi - Automazione della gestione alberghiera con ZakWubook PMS">
+    <meta name="twitter:image:src" content="posts/06_09_2024/Real-estate-2024-09-17-1.png"/>
+    <link rel="stylesheet" href="components/styles/bootstrap.css" />
+    <link rel="stylesheet" href="components/styles/button.css" />
+    <link rel="stylesheet" href="components/styles/icons.css" />
+    <link rel="stylesheet" href="components/styles/slick.css" />
+    <link rel="stylesheet" href="components/styles/slick-theme.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+     
+    <link rel="shortcut icon" href="logodesign.svg" type="image/x-icon" />
+    <script src="components/code/jquery.min.js"></script>
+    <script src="components/code/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap" rel="stylesheet" />
+    
+
+
+    <style>
+       body{
+           direction: ltr;
+           font-family: 'Saira Condensed', sans-serif;
+           font-size: 17px;
+           margin: 0;
+           padding: 0px;
+       }
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img, video{
+    max-width: 100%;
+}
+ul, nav{
+
+    list-style: none;
+}
+a
+{  text-decoration: none;
+    cursor: pointer;
+    opacity: 0.9;
+ }
+
+h1{
+    color: #FFD700;
+    text-align: center;
+    padding-bottom: 20px;
+}
+h3 {
+    color: #FFD700;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+.features h3 {
+    color: #fff;
+}
+.contact h3 {
+    color: #fff;
+}
+.paddingStyle {
+padding-top: 65px;
+padding-bottom: 65px;
+}
+
+section p ul {
+	padding: 0 20px;
+}
+.navig a {
+    font-size: 18px;
+}
+ul.grid{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.stats--block{
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      text-align: center;
+  }
+  .stat--block__item{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 13px;
+  }
+  .stat--block__item i{
+      font-size: 35px;
+  }
+  .stat--block__item h3{
+      font-size: 16px;
+      margin: 0px;
+  }
+  .stat--block__item div{
+      font-size: 34px;
+      font-weight: 600;
+  }
+
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #FFD700;
+    opacity: 1;
+    padding: 28px;
+}
+.boxs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.boxs p {
+    color: inherit;
+}
+.boxs a {
+    color: inherit;
+}
+.logtip-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+.logtip-box img {
+    height: 50px;
+}
+.logtip-box p {
+    font-size: 20px;
+    padding: 5px;
+}
+.navig {
+    display: flex;
+}
+.navig a {
+    padding: 5px;
+}
+.navig a:hover{
+	opacity: 1;
+    color: #c4b6b6;
+    border-bottom: solid 2px #c4b6b6;
+}
+
+.slid img {
+    height: 60%;
+    object-fit: cover;
+    background-position: center;
+}
+.slid-p {
+    background-color: background: rgba(255,255,255,0.5); color: #222;;
+    border: 2px solid background: rgba(255,255,255,0.5); color: #222;;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+
+.slid p {
+    color: white;
+    opacity: 1;
+    padding: 5px;
+    font-size: 30px;
+}
+.main {
+    display: flex;
+    gap: 28px;
+}
+.main-content {
+    padding: 0px 36px;
+}
+.main-content  p{
+    color: #333;
+}
+.main-content  li {
+    color: #333;
+}
+.stats--boxing{
+    padding-top: 36px;
+}
+.titlePadding{
+    padding-bottom: 36px;
+    margin-bottom: 0px;
+}
+
+.content-img1 {
+    height: 165px;
+    border-radius: 10px;
+    float: left;
+    margin: 0px 13px 13px 13px;
+}
+
+.forma {
+    background: #FFD700;
+    opacity: 0.8;
+    border-radius: 20px;
+    padding: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-height: 100%;
+    height: 100%;
+    margin-top: 30px;
+}
+.forma a {
+    color: #000000;
+}
+.forma-icon {
+    font-size: 200px;
+    text-align: center;
+    color: white;
+    padding-bottom: 30px;
+}
+.form-text {
+     text-align: center;
+     font-size: 24px;
+}
+.mb-3 {
+    color: inherit;
+}
+.coment {
+    height: 100px;
+}
+.btn {
+    background: #001E6C;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    border: solid 2px #001E6C;
+    color: #c4b6b6;
+}
+.btn:hover {
+    background: #c4b6b6;
+    border: solid 2px #c4b6b6;
+    color: #001E6C;
+}
+.icon i {
+    font-size: 34px;
+    color: #c4b6b6;
+}
+.icon {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.icon a {
+    word-break: break-all;
+}
+.our-work{
+	background-color: #fff;
+}
+.our-work p{
+	text-align: center;
+    font-size: 24px;
+    padding: 13px;
+}
+.reviewsp {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.features{
+	background: #FFD700;
+    opacity: 1;
+}
+.features p {
+    text-align: center;
+    font-size: 24px;
+}
+
+.reviews {
+	text-align: center;
+	font-size: 22px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.contact{
+	background: #FFD700;
+    opacity: 1;
+    padding: 13px;
+}
+
+.contact p{
+    font-size: 24px;
+}
+.cont i {
+    padding: 5px;
+}
+.cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    gap: 13px;
+}
+.karta {
+    width: 60%;
+}
+
+.conter {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+    'job1 job2'
+    'job3 job4';
+    gap: 22px;
+}
+.job1 {
+    grid-area: job1;
+}
+.job2 {
+    grid-area: job2;
+}
+.job3 {
+    grid-area: job3;
+}
+.job4 {
+    grid-area: job4;
+}
+.conter img {
+    height: 200px;
+}
+.linev {
+    width: 50px;
+    padding: 2px;
+    margin-top: 10px;
+    background: #830910;
+}
+.vidgyk {
+    display: flex;
+    margin: 10px;
+    box-shadow: 3px 0px 7px 0px rgb(0 0 0 / 19%);
+    border-top: solid #FFD700;
+    border-bottom: solid #FFD700;
+    border-width: 2px;
+    flex-direction: column;
+    gap:13px;
+    align-items: center;
+}
+.slider__wrapper{
+    direction: ltr;
+}
+.name {
+    font-size: 34px;
+    color: black;
+    text-align: start;
+    font-weight: bold;
+}
+.textvidgyk {
+    font-size: 20px;
+    text-align: start;
+    color: rgb(128,128,128);
+}
+
+.vidgyk img {
+    height: 200px;
+    width: 180px;
+}
+
+.cont {
+    display: flex;
+}
+.mb-_form {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.slider--box{
+    position: relative;
+}
+.contentHead{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-10%, -50%);
+    width: 50%;
+    font-size: 35px;
+    padding: 36px;
+}
+.input-user_element__item{
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.textarea-user_element__item{
+    width: 100%;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    padding: 0.375rem 0.75rem;
+}
+.hr {
+    height: 3px;
+}
+    .slider__items {
+      counter-reset: slide;
+      direction: ltr;
+    }
+
+    .slider__item {
+      overflow: hidden;
+      position: relative;
+      counter-increment: slide;
+      height: 320px;
+    }
+
+    .slider__item::after {
+      content: counter(slide);
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      color: #fff;
+      font-style: italic;
+      font-size: 32px;
+      font-weight: bold;
+    }
+
+    .slider img {
+      display: inline-block;
+      height: auto;
+      max-width: 100%;
+      border-radius: 50%;
+
+    }
+
+    .slider__item {
+        background-color: white;
+
+    }
+    .slider__item_inner {
+      position: absolute;
+      left: 8%;
+      right: 8%;
+      top: 36px;
+      bottom: 36px;
+      overflow: hidden;
+      color: #fff;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      gap: 22px;
+      align-items: center;
+      direction: ltr;
+    }
+
+    .slider__item_img {
+      flex: 0 0 100px;
+      max-width: 100px;
+    }
+
+    .slider__item_testimonial {
+      flex: 1 0 0;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+
+    }
+
+   .slider__item_name {
+        font-size: 18px;
+        margin-bottom: 8px;
+        color:  #000000;
+        text-align: start;
+        padding-top: 10px;
+        font-weight: bold;
+    }
+
+    .slider__item_text {
+      font-size: 16px;
+      color: rgba(113, 113, 113);
+      text-align: start;
+    }
+
+    .gallery {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 5vw);
+    grid-gap: 1.5rem;
+    }
+    .gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    }
+    .gallery__item--1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    }
+    .gallery__item--2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    }
+    .gallery__item--3 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 6;
+    }
+    .gallery__item--4 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 6;
+    }
+
+    #section-4 .container{
+        gap: 36px;
+    }
+    .slick-dots li button:before {
+    font-family: none;
+    font-size: 50px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '-';
+    text-align: center;
+    opacity: .25;
+    color:  white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: white;
+}
+.price--box{
+    margin-top: 22px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.contentHead a{
+    display: flex;
+    margin-top: 28px;
+    padding: 21px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.linki {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentHead {
+    background-color: #FFD700cc
+}
+.slid-p {
+    background-color: #8d9aba80
+}
+
+       #cookie-footerxy--overlay{
+           display: none;
+           justify-content: space-between;
+           align-items: center;
+           position: fixed;
+           bottom: 22px;
+           left: 50%;
+           width: 1232px;
+           max-width: 90%;
+           transform: translateX(-50%);
+           padding: 22px;
+           background-color:  #44000D;
+           border-radius: 10px;
+           box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.6);
+           gap: 22px;
+           z-index: 999999;
+       }
+       #cookie-footerxy--overlay button{
+           max-width: 200px;
+           width: 100%;
+       }
+
+       #cookie-footerxy--overlay p{
+           margin: 0;
+           font-size: 15px;
+           color: #fff;
+       }
+
+
+       @media (min-width: 576px){
+           #cookie-footerxy--overlay.show{
+               display: flex;
+           }
+       }
+
+       @media (max-width: 575px){
+           #cookie-footerxy--overlay.show{
+               display: flex;
+               flex-direction: column;
+           }
+           button{
+               width: 100%;
+           }
+           .contentHead {
+            height: 100%;
+            padding: 10px;
+            font-size: 16px !important;
+           }
+           .boxs {
+            gap: 10px;
+           }
+       }
+    </style>
+    <link rel="stylesheet" href="components/styles/media-query.css?12113" />
+    
+  </head>
+
+  <body>
+    
+    <header class="header">
+        <div class="boxs flex-row">
+            <div class="logtip-box">
+                <img src="logodesign.svg" alt="logo" />
+                <p>GreenGraspumzi</p>
+            </div>
+            <nav>
+                <ul class="navig">
+                    <li><a href="./#section-1">Casa</a></li>
+                    <li><a href="./#section-2">Come agiamo: comprendere il nostro approccio al settore immobiliare</a></li>
+                    <li><a href="./#section-3">Recensioni</a></li>
+                    <li><a href="./#section-4">Chi Siamo</a></li>
+                      
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="slider--box searchby-dropdown">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner slid">
+                <div class="carousel-item active">
+                <img src="gallery/photograph_header_66ed6c532731f8.60845088.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                <img src="gallery/drawing_header_66ed6c54ee0216.51062573.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                <img src="gallery/snapshot_header_66ed6c55b9e8d0.62880276.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="contentHead">
+                Benvenuti su GreenGraspumzi! Scopri come il nostro avanzato sistema ZakWubook PMS - Property Management System può trasformare e ottimizzare la gestione delle tue proprietà. Semplifica il tuo lavoro quotidiano e aumenta l'efficienza management delle strutture con la nostra soluzione innovativa.
+                
+            </div>
+        </div>
+    </div>
+    <section id="section-1" class="hero paddingStyle">
+        <div class="main flex-row container">
+            <div class="main-content flex-row">
+                <h1>Automazione della gestione alberghiera con ZakWubook PMS</h1>
+                <div>
+                    <img class="content-img1" src="posts/06_09_2024/Real-estate-2024-09-17-1.png" alt="Automazione della gestione alberghiera con ZakWubook PMS">
+                    <p>Noi di GreenGraspumzi siamo specializzati nella fornitura di servizi di prim'ordine nel campo di ZakWubook PMS, un sistema completo di gestione della proprietà (PMS) progettato per automatizzare e semplificare le operazioni di strutture ricettive come hotel, appartamenti e altre strutture ricettive. La nostra esperienza consiste nell'aiutare proprietari e gestori a ottenere il pieno controllo dei loro processi di gestione della proprietà, consentendo loro di gestire le prenotazioni, la reportistica, la fatturazione, l'inventario e la comunicazione con gli ospiti con facilità ed efficienza.</p>
+<p style="text-align: center;"><strong>Chi Siamo</strong></p>
+<p>GreenGraspumzi è un fornitore dedicato di soluzioni avanzate per la gestione della proprietà, che si concentra sulla fornitura di risultati eccezionali per le attività ricettive di tutte le dimensioni. Con anni di esperienza nel settore e un team di professionisti esperti, ci impegniamo a fornire gli strumenti e il supporto necessari per ottimizzare il modo in cui vengono gestiti hotel, appartamenti e strutture ricettive.</p>
+<p style="text-align: center;"><strong>i nostri Servizi</strong></p>
+<p>Offriamo una gamma completa di servizi che ruotano attorno alla piattaforma ZakWubook PMS. Le nostre soluzioni sono personalizzate per soddisfare le esigenze di ogni cliente, garantendo che possano automatizzare i processi critici e concentrarsi sull'offerta di esperienze eccellenti agli ospiti.&nbsp;</p>
+<p style="text-align: center;"><strong>I nostri servizi principali includono:</strong></p>
+<p><strong>Implementazione e configurazione:</strong> Assistiamo i nostri clienti nell'installazione e nella configurazione senza problemi di ZakWubook PMS, garantendo una transizione senza problemi a un sistema automatizzato.</p>
+<p><strong>Formazione e supporto: </strong>Il nostro team fornisce una formazione completa per garantire che il personale possa sfruttare appieno le funzionalità del sistema. Offriamo un supporto continuo per risolvere qualsiasi problema e massimizzare le prestazioni del sistema.</p>
+<p><strong>Personalizzazione: </strong>Personalizziamo ZakWubook PMS per soddisfare le esigenze uniche di ogni proprietà, adattando il sistema per adattarsi a specifici flussi di lavoro operativi.</p>
+<p><strong>Integrazione: </strong>Aiutiamo a integrare ZakWubook PMS con altre soluzioni software come strumenti di contabilità, gateway di pagamento e sistemi di gestione delle relazioni con i clienti (CRM), garantendo un ambiente operativo senza interruzioni.</p>
+<p><strong>Manutenzione e aggiornamenti:</strong> Monitoriamo e manteniamo continuamente il sistema per mantenerlo aggiornato con le ultime funzionalità e miglioramenti della sicurezza.</p>
+<p style="text-align: center;"><strong>Il nostro approccio</strong></p>
+<p>Noi di GreenGraspumzi crediamo in un approccio incentrato sul cliente, assicurandoci che ogni soluzione che forniamo sia realizzata in modo univoco per affrontare le sfide specifiche che i nostri clienti devono affrontare. Iniziamo con una profonda comprensione dell'attività del cliente, concentrandoci sui suoi obiettivi, processi operativi e punti deboli. I nostri esperti personalizzano quindi ZakWubook PMS per adattarlo perfettamente al loro flusso di lavoro di gestione immobiliare. Diamo priorità alla trasparenza, alla comunicazione e alla soddisfazione del cliente, assicurandoci che i nostri clienti ricevano risultati ottimali con il minimo sforzo.</p>
+<p style="text-align: center;"><strong>Perché le persone ci scelgono</strong></p>
+<ul>
+<li>Competenza nel settore: Il nostro team ha una vasta esperienza nella gestione immobiliare e una profonda conoscenza di ZakWubook PMS, garantendo che i nostri clienti ricevano le migliori soluzioni.</li>
+<li>Soluzioni su misura: Siamo consapevoli che non esistono due aziende uguali ed è per questo che offriamo servizi personalizzati progettati per soddisfare le esigenze specifiche di ciascun cliente.</li>
+<li>Affidabilità e supporto: i nostri clienti si fidano di noi per la nostra affidabilità, supporto tempestivo e impegno per il loro successo. Siamo sempre disponibili a fornire indicazioni e risolvere eventuali sfide.</li>
+<li>Efficienza: Implementando ZakWubook PMS, aiutiamo i nostri clienti a risparmiare tempo, ridurre gli errori manuali e semplificare le loro operazioni, portando a un aumento della redditività.</li>
+<li>Approccio incentrato sul cliente: lavoriamo a stretto contatto con i nostri clienti in ogni fase del processo, assicurandoci che siano pienamente soddisfatti dei servizi che forniamo.</li>
+</ul>
+<p>GreenGraspumzi è il partner di riferimento per qualsiasi struttura ricettiva che desideri migliorare l'efficienza operativa e migliorare l'esperienza degli ospiti attraverso soluzioni innovative di gestione della proprietà.</p>
+                     
+                </div>
+
+                <div class="stats--boxing">
+                    <div class="stats--block">
+    <div class="stat--block__item headerrs--slider">
+        <i class="bi bi-check2-all"></i>
+        <h3>Clienti soddisfatti</h3>
+        <div>85654</div>
+    </div>
+    <div class="stat--block__item headerrs--slider">
+        <i class="bi bi-check2-all"></i>
+        <h3>Orari di consultazione</h3>
+        <div>2793</div>
+    </div>
+    <div class="stat--block__item headerrs--slider">
+        <i class="bi bi-check2-all"></i>
+        <h3>Domande accettate</h3>
+        <div>8341</div>
+    </div>
+</div>
+                </div>
+            </div>
+            <div class="forma" >
+                <i class="forma-icon bi bi-person-circle"></i>
+                <div class="form-text">Puoi utilizzare i nostri servizi scrivendoci o chiamandoci. Saremo lieti di rispondere a qualsiasi domanda e di aiutarvi a ordinare i servizi!</div>
+                <hr class="line" style="max-width:100%;">
+                <div class="t">
+                    <form action="thank-you.php" method="post">
+                         <div class="mb-_form">
+                              <input class="input-user_element__item" type="text" name="name_auto-support" placeholder="Inserisci il tuo nome" required><input name="email_auto-support" class="input-user_element__item" type="email" placeholder="Indirizzo email" required>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                            <label class="form-check-label" for="exampleCheck1">Accetto <a href="privacy.html" target="_blank">Informativa sulla privacy</a></label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Invia un messagio</button>
+                    </form>
+                </div>
+            </div>
+     </section>
+     <hr style="width: 80%; color:#FFD700; margin: 0 10% 0 10%;">
+    
+    
+    <section id="section-3" class="features paddingStyle">
+        <div  class="container">
+        <h3 class="fst-normal titlePadding">Recensioni</h3>
+            <div class="sliders">
+            <div class="slider__wrapper">
+            <div class="slider slider__items">
+                <div class="slider__item">
+                <div class="slider__item_inner">
+                    <span class="slider__item_img">
+                    <img class="slider__item_photo" src="static/images/profile_pic_2024-09-12_15-36-33_0.webp" alt="">
+                    </span>
+                    <span class="slider__item_testimonial">
+                    <span class="slider__item_name">Giulia Fontana</span>
+                    <span class="slider__item_text">
+                        Non posso più immaginare la gestione del mio B&B senza GreenGraspumzi!
+                    </span>
+                    </span>
+                </div>
+                </div>
+                <div class="slider__item">
+                <div class="slider__item_inner">
+                    <span class="slider__item_img">
+                    <img src="static/images/mPprofile_2024-09-13_15-36_0.webp" alt="">
+                    </span>
+                    <span class="slider__item_testimonial">
+                    <span class="slider__item_name">Antonio Rossi</span>
+                    <span class="slider__item_text">
+                        Uso GreenGraspumzi da un anno ed è incredibile quanto tempo ho risparmiato nella gestione del mio hotel.
+                    </span>
+                    </span>
+                </div>
+                </div>
+                <div class="slider__item">
+                <div class="slider__item_inner">
+                    <span class="slider__item_img">
+                    <img src="static/images/profile_pic_2024-09-12_15-36-33_1.webp" alt="">
+                    </span>
+                    <span class="slider__item_testimonial">
+                    <span class="slider__item_name">Martina Greco</span>
+                    <span class="slider__item_text">
+                        ZakWubook PMS ha rivoluzionato il modo in cui organizzo le prenotazioni e il personale.
+                    </span>
+                    </span>
+                </div>
+                </div>
+                <div class="slider__item">
+                <div class="slider__item_inner">
+                    <span class="slider__item_img">
+                    <img src="static/images/mPprofile_2024-09-13_15-36_1.webp" alt="">
+                    </span>
+                    <span class="slider__item_testimonial">
+                    <span class="slider__item_name">Luca Bianchi</span>
+                    <span class="slider__item_text btnxy__style">
+                        Il sistema ZakWubook PMS ha semplificato enormemente la gestione quotidiana della mia proprietà. Consigliato!
+                    </span>
+                    </span>
+                </div>
+                </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    </section>
+    
+    </div>
+    <hr style="width: 80%; color:#FFD700; margin: 0 10% 0 10%;">
+    <section id="section-4" class="reviews paddingStyle">
+        <div  class="container flex-column" style="display: flex;">
+        <div>
+            <h3 class="fst-normal titlePadding">Chi Siamo</h3>
+            <p class="reviewsp ">GreenGraspumzi è leader nella fornitura di soluzioni di gestione delle proprietà grazie all'integrazione con il potente sistema ZakWubook PMS. Offriamo una gamma completa di strumenti per automatizzare e ottimizzare ogni aspetto della gestione delle strutture ricettive, dai controlli di inventario al calendario delle prenotazioni, dalla gestione del personale all'analisi del rendimento. Con GreenGraspumzi, puoi concentrarti sul tratto distintivo della tua ospitalità, mentre automatizzi il resto.</p>
+        </div>
+        
+        <div class="conter">
+            <div class="vidgyk job1">
+                <img src="static/images/profile_pic_2024-09-12_15-36-33_2.webp" alt="">
+                <div>
+                    <p class="name">Valentina Monti</p>
+                    <p class="textvidgyk">Amministratore della proprietà</p>
+                    <hr class="linev">
+                </div>
+            </div>
+            <div class="vidgyk job2">
+                <img src="static/images/mPprofile_2024-09-13_15-36_2.webp" alt="">
+                <div>
+                    <p class="name">Marco Romano</p>
+                    <p class="textvidgyk">Responsabile delle prenotazioni</p>
+                    <hr class="linev">
+                </div>
+            </div>
+            <div class="vidgyk job3">
+                <img src="static/images/profile_pic_2024-09-12_15-36-33_3.webp" alt="">
+                <div>
+                    <p class="name">Sara Barbieri</p>
+                    <p class="textvidgyk">Supervisore del personale</p>
+                    <hr class="linev">
+                </div>
+            </div>
+            <div class="vidgyk job4">
+                <img src="static/images/mPprofile_2024-09-13_15-36_3.webp" alt="">
+                <div>
+                    <p class="name">Francesco Galli</p>
+                    <p class="textvidgyk">Analista delle performance</p>
+                    <hr class="linev">
+                </div>
+            </div>
+         </div>
+        </div>
+        
+    </section>
+    
+    <section id="section-5" class="contact paddingStyle">
+        <div  class="container paddingStyle">
+         
+        </div>
+        <div class="linki container">
+            <a style="color: #c4b6b6;"  href="privacy.html" target="_blank">Informativa sulla privacy</a>
+        </div>
+        <div class="linki container">
+            <a style="color: #c4b6b6;"  href="serviceTerms.html" target="_blank">Termini e condizioni</a>
+        </div>
+        <div class="linki container">
+           <a style="color: #c4b6b6;" href="disclaimer.html" target="_blank">Disconoscimento</a>
+        </div>
+    </section>
+
+
+    
+    <script type="text/javascript" src="components/code/slick.js"></script>
+    <script type="text/javascript" src="components/code/lightbox.js"></script>
+
+    <script >
+        let sliderHeight = $('.slider__item_inner').height();
+        $('.slider__item').css('height',sliderHeight+100+'px');
+
+        if($('.main').hasClass('flex-column') || $('.main').hasClass('flex-column-reverse')){
+            $('.cont').css('width','100%');
+            $('.karta').css('width','100%');
+            $('.icon').css({'flex-direction':'column','align-items':'center'});
+        }
+        if($('.vidgyk').css('flex-direction') == 'row-reverse'){
+            $('.vidgyk').css('justify-content','space-between');
+        }
+        if($('.vidgyk').css('flex-direction') == 'column'){
+            $('.name, .textvidgyk').css('text-align','center');
+            $('.linev').css('margin','10px auto');
+            $('.vidgyk img').css({'height':'335px','width':'100%','object-fit':'cover'});
+        }
+        $('.fnbox').each(function() {
+            $(this).attr('href', $(this).children('img').attr('src'));
+        });
+
+        let countNumber = 1;
+
+
+        $('.slider').slick({
+        dots: true,
+        infinite: false,
+        speed: 300,
+        slidesToShow: countNumber,
+        slidesToScroll: 1,
+        arrows: false,
+        responsive: [
+            {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true,
+                arrows: false,
+                dots: true
+            }
+            },
+            {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false,
+            }
+            },
+            {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
+                arrows: false,
+                slidesToScroll: 1
+            }
+            }
+        ]
+        });
+
+        if($('.headBox .row').hasClass('flex-column')){
+        $('.logtip--box').css('justify-content','center');
+        $('.headBox h3').css('text-align','center');
+        }
+
+        let mheiStyle = $('.content-img1').prop('naturalHeight');
+        let mwidStyle = $('.content-img1').prop('naturalWidth');
+
+        if(mheiStyle == mwidStyle){
+            if(mwidStyle > 600){
+                $('.content-img1').css({'width':'50%','height':'auto'});
+            }
+        }
+        if(mheiStyle > mwidStyle){
+            if(mheiStyle < 2500 && mheiStyle > 700){
+                $('.content-img1').css({'width':'25%','height':'auto'});
+            }
+            if(mheiStyle < 700 && mheiStyle > 500){
+                $('.content-img1"').css({'width':'50%','height':'auto'});
+            }
+        }
+        if(mheiStyle < mwidStyle){
+            if(mwidStyle < 600){
+                $('.content-img1').css({'width':'500px','height':'auto'});
+            }
+        }
+
+        $('.slick-dots li button').css('color','rgba(255 255 255)');
+
+        let sections = $('section'),
+        nav = $('nav'),
+        nav_height = nav.outerHeight();
+        $(window).on('scroll', function () {
+            $('nav a').removeClass('active');
+            let cur_pos = $(this).scrollTop();
+            sections.each(function() {
+                let top = $(this).offset().top - nav_height - 180,
+                bottom = top + $(this).outerHeight();
+                if (cur_pos >= top && cur_pos <= bottom) {
+                    nav.find('a').removeClass('active');
+                    sections.removeClass('active');
+                    $(this).addClass('active');
+                    nav.find('a[href="#'+$(this).attr('id')+'"]').addClass('active');
+                }
+            });
+        });
+        nav.find('a').on('click', function () {
+            let $el = $(this),
+            id = $el.attr('href');
+            $('html, body').animate({
+                scrollTop: $(id).offset().top - nav_height
+            }, 600);
+            return false;
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const header = document.querySelector('header');
+            const contentHead = document.querySelectorAll('.contentHead');
+            const forma = document.querySelector('.forma');
+            const formText = document.querySelectorAll('.form-text');
+            const contact = document.querySelector('.contact');
+            const footerLinks = document.querySelectorAll('.foote, a.foote');
+
+            function changeTextColorBasedOnBgColor(element, textElements) {
+                const bgColor = window.getComputedStyle(element).backgroundColor;
+                if (tinycolor(bgColor).isLight()) {
+                    element.style.color = '#222';
+                    textElements.forEach(el => el.style.color = '#222');
+                } else {
+                    element.style.color = '#fff';
+                    textElements.forEach(el => el.style.color = '#fff');
+                }
+            }
+
+            if (header) changeTextColorBasedOnBgColor(header, [...contentHead]);
+            if (forma) changeTextColorBasedOnBgColor(forma, [...formText]);
+            if (contact) changeTextColorBasedOnBgColor(contact, [...footerLinks]);
+        });
+
+
+
+</script>
+
+    
+    
+  </body>
+  
+</html>
+
